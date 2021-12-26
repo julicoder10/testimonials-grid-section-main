@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+body{
+    background:hsl(210, 50%, 92%);
+    font-size:18px;
+    font-family: 'Barlow Semi Condensed';
+}
+img{
+    width:32px;
+    height:32px;
+    margin-right:10px;
+    border-radius:50px;
+}
+p{
+    font-size:13px;
+    font-family: 'Barlow Semi Condensed';
+    opacity:70%;
+    font-weight: lighter;
+}
+h3{
+    font-size:13px;
+    font-family: 'Barlow Semi Condensed';
+}
+h4{
+    font-size:11px;
+    font-family: 'Barlow Semi Condensed';
+    color:hsl(210, 46%, 95%);
+}
+.flex-container{
+    display: flex;
+    margin-bottom:20px;
+    padding:60px;
+}
+.sub-container-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.daniel{
+    width:500px;
+    background-color: hsl(263, 55%, 52%);
+    padding:20px;
+    margin:10px;
+    border-radius:10px;
+    color:white;
+}
+.jonathan{
+    width:220px;
+    background-color:gray;
+    padding:20px;
+    margin:10px;
+    border-radius:10px;
+    color:white;
+}
+.jeanette{
+    width:220px;
+    padding:20px;
+    margin:10px;
+    border-radius:10px;
+    background-color:white;
+}
+.patrick{
+    width:500px;
+    padding:20px;
+    background-color: hsl(219, 29%, 14%);
+    color: white;
+    margin:10px;
+    border-radius:10px;
+}
+.sub-container-2{
+    display: flex;
+    margin-right:80px;
+}
+.kira{
+    width:220px;
+    padding:20px;
+    margin:10px;
+    border-radius:10px;
+    background-color:white;
+}
+.verified-kira-jeanette{
+    color:rgba(0, 0, 0, 0.616);
+}
+.person-name{
+    line-height:5px;
+}
+.sub-person{
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width : 900px) {
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .daniel{
+        width:100%;
+    }
+    .jonathan{
+        width:100%;
+    }
+    .jeanette{
+        width:100%;
+    }
+    .patrick{
+        width:100%;
+    }
+    .sub-container-2{
+        margin-right:0;
+    }
+    .kira{
+        width:100%;
+    }
+    }
